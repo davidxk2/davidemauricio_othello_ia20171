@@ -1,3 +1,7 @@
+#Trabalho da disciplina inteligencia artificial periodo 2017.1 DCC UFRJ
+#Grupo: David Gomes e Mauricio Borges
+#Professor: Joao Carlos
+
 import copy #Utilizado para copiar listas e matrizes
 import sys  #Utilizado para implementar infinito computacional 
 
