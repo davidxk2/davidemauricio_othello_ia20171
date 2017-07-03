@@ -58,9 +58,11 @@ class infinity:
     def minmaxcortealphabeta(self, board, depth, alpha, beta, tipo):
         global jogada
         global auxiliar
+        global njogadas
        
-        #FIM DE JOGO
+        #Passa a vez
         if (depth == 0) or (self.meusmovimentosdisponiveis(board) == 0):
+            njogadas-=1
             return self.heuristic(board)
 
         #Define as cores do inimigo
